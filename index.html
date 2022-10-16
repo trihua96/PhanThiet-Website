@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Index Website for Google -->
+    <meta name="google-site-verification" content="9eHbRLtFCkCN8LXsvJEhYg1vRA8W9Ld3aCab1tHy2FE" />
+    <title>PhanThiet World</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" >
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-226667236-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-226667236-1');
+    </script>
+
+    <!-- Hotjar Tracking Code for https://2022fx.000webhostapp.com/ -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:2933392,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+    <!-- Subiz Chat -->
+    <script>!function(s,u,b,i,z){var o,t,r,y;s[i]||(s._sbzaccid=z,s[i]=function(){s[i].q.push(arguments)},s[i].q=[],s[i]("setAccount",z),r=["widget.subiz.net","storage.googleapis"+(t=".com"),"app.sbz.workers.dev",i+"a"+(o=function(k,t){var n=t<=6?5:o(k,t-1)+o(k,t-3);return k!==t?n:n.toString(32)})(20,20)+t,i+"b"+o(30,30)+t,i+"c"+o(40,40)+t],(y=function(k){var t,n;s._subiz_init_2094850928430||r[k]&&(t=u.createElement(b),n=u.getElementsByTagName(b)[0],t.async=1,t.src="https://"+r[k]+"/sbz/app.js?accid="+z,n.parentNode.insertBefore(t,n),setTimeout(y,2e3,k+1))})(0))}(window,document,"script","subiz", "acrhrqfhbxujmyamricd")</script>
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&family=Water+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row header">
+            <label class="logo">
+                <a href="index.html">
+                    <p>PhanThiết World</p>
+                    <p>Thành phố của biển</p>
+                </a>
+            </label>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <div class="menu-wrap">           
+                <ul>                    
+                    <li><a href="index.html" class="menu home-menu"><i class="fa fa-home"></i>Trang Chủ</a></li>                    
+                    <li><a href="vanhoa.html" class="menu">văn hóa</a></li>
+                     
+                    <li class="drop-trainghiem">
+                        <a href="trainghiem.html" class="menu dropdown-btn">trải nghiệm</a>
+
+                        <input type="checkbox" id="checkdrop">
+                        <label for="checkdrop" class="checkdrop-btn">
+                            <i class="fa fa-angle-down"></i>
+                        </label>   
+                        
+                        <div class="dropdown-content">
+                            <a href="#">Trải nghiệm - review</a>
+                            <a href="dacsan.html">Đặc sản</a>
+                        </div>                                                            
+                    </li>
+                     
+                    <li><a href="camnang.html" class="menu">cẩm nang</a></li>    
+                    <li><a href="https://www.booking.com/resorts/city/vn/phan-thiet.vi.html" class="menu">Khách Sạn</a></li>                                       
+                </ul>
+            </div>              
+        </div>
+        
+        <div class="row banner">
+            <video autoplay muted loop id="index-video">
+                <source src="images/PhanThiet.mp4" type="video/mp4">
+            </video>
+            <button id="btn-video" onclick="myFunction()">Pause</button>
+        </div>
+        <div class="row index-content">
+            <h1 class="title-content text-uppercase"><small>Khám phá những</small> địa điểm du lịch nổi tiếng<br> <small>đáng chú ý với click chuột!!!</small></h1>
+            <div class="row imgsIndex-content" style="max-width: 100%;height: auto;">
+                <div class="col-md-4 col-sm-6 col-xs-12 col-card">
+                    <figure class="effect-goliath">
+                        <img src="images/bautrang/img-bautrang5.png" alt="img-bautrang" width="100%" height="auto">
+                        <figcaption>
+                            <h2><span>Bàu Trắng</span></h2>
+                            <p> nơi có những cồn cát ngút ngàn và bao quanh với một khu hồ sen rộng lớn nước trong mát quanh năm.</p>
+                            <a href="trainghiem.html">View more</a>
+                        </figcaption>
+                    </figure class="effect-goliath">
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 col-card">
+                    <figure class="effect-goliath">
+                        <img src="images/dao-phu-quy-2.jpg" alt="img-daophuquy" width="100%" height="auto">
+                        <figcaption>
+                            <h2><span>Đảo Phú Quý</span></h2>
+                            <p>Đảo Phú Quý được thiên nhiên ưu đãi nguồn tài nguyên phong phú và cả những danh lam thắng cảnh tuyệt đẹp</p>
+                            <a href="trainghiem.html">View more</a>
+                        </figcaption>
+                    </figure class="effect-goliath">
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 col-card">
+                    <figure class="effect-goliath" class="img-card">
+                        <img src="images/suoi-tien-mui-ne.jpg" alt="img-suoitien" width="100%" height="auto">
+                        <figcaption>
+                            <h2><span>Suối Tiên</span></h2>
+                            <p>Ấn tượng bởi dòng nước đỏ cam đẹp mắt. Đi chân trần lội nước suối như rũ bỏ mọi ưu phiền.</p>
+                            <a href="trainghiem.html">View more</a>
+                        </figcaption>
+                    </figure class="effect-goliath">    
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 col-card">
+                    <figure class="effect-goliath">
+                        <img src="images/vinh-da-nhay-ke-ga.jpg" alt="img-kega" width="100%" height="auto">
+                        <figcaption>
+                            <h2><span>Kê Gà</span></h2>
+                            <p>Kê Gà nổi bật với khung cảnh thiên nhiên thanh bình, thơ mộng và hùng vĩ.</p>
+                            <a href="trainghiem.html">View more</a>
+                        </figcaption>
+                    </figure class="effect-goliath">
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 col-card">
+                    <figure class="effect-goliath">
+                        <img src="images/bai-da-7-mau-co-thach.jpg" alt="img-dacothach" width="100%" height="auto">
+                        <figcaption>
+                            <h2><span>Đá Cổ Thạch</span></h2>
+                            <p>Biển Cổ Thạch ấn tượng với vẻ lung linh như những viên ngọc nhiều màu sắc.</p>
+                            <a href="trainghiem.html">View more</a>
+                        </figcaption>
+                    </figure class="effect-goliath">
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 col-card">
+                    <figure class="effect-goliath">
+                        <img src="images/lau-dai-ruou-vang.jpg" alt="img-lau-dai-ruou-vang" width="100%" height="auto">
+                        <figcaption>
+                            <h2><span>Lâu Đài Rượu Vang</span></h2>
+                            <p>Cảm tác như từ thung lũng rượu vang Napa vùng California của nứơc Mỹ. </p>
+                            <a href="trainghiem.html">View more</a>
+                        </figcaption>
+                    </figure class="effect-goliath">
+                </div>
+            </div>
+            
+            <div class="row indexContent-vanHoa">
+                <h1 class="lead text-uppercase text-center"><small>Khám phá về văn hóa của Phan Thiết với những</small> Danh lam thắng cảnh và các lễ hội đặc sắc...</h1>
+                <div class="slidesIndex-vanHoa">
+                    <!-- (A) FIRST SLIDE -->
+                    <input type="radio" id="radio1" name="slide-radio" checked/>
+                    <div class="slide" id="slide1">                        
+                        <label class="last" for="radio4">&lt;</label>
+                        <label class="next" for="radio2">&gt;</label>                        
+                        <div class="caption">Cuộc Sống Đánh Bắt hải sản của người dân Phan Thiết</div>
+                        <a href="vanhoa.html"></a>
+                    </div>
+                    <!-- (B) -->
+                    <input type="radio" id="radio2" name="slide-radio"/>
+                    <div class="slide" id="slide2">
+                        <label class="last" for="radio1">&lt;</label>
+                        <label class="next" for="radio3">&gt;</label>
+                        <div class="caption">Vẻ đẹp huyền bí Tháp Chàm Poshanư</div>
+                        <a href="vanhoa.html"></a>
+                    </div>
+                    <!-- (C) -->
+                    <input type="radio" id="radio3" name="slide-radio"/>
+                    <div class="slide" id="slide3">
+                        <label class="last" for="radio2">&lt;</label>
+                        <label class="next" for="radio4">&gt;</label>
+                        <div class="caption">Lễ Hội Nghinh Ông</div>
+                        <a href="vanhoa.html"></a>
+                    </div>
+                    <!-- (D) End SLIDE -->
+                    <input type="radio" id="radio4" name="slide-radio"/>
+                    <div class="slide" id="slide4">
+                        <label class="last" for="radio3">&lt;</label>
+                        <label class="next" for="radio1">&gt;</label>
+                        <div class="caption">Lễ Hội Rước đèn trung thu</div>
+                        <a href="vanhoa.html"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end content -->
+        
+        <div class="row footer">
+            <div class="col-md-4 col-sm-6 col-xs-12 about">
+                <h4>Về Chúng Tôi</h4>
+                <p>Phan Thiết là một thành phố ven biển và là tỉnh lỵ, trung tâm chính trị, kinh tế, văn hóa và khoa học kỹ thuật của tỉnh Bình Thuận, Việt Nam.</p>
+                <span>&copy; phanthietworld 2022</span>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 sitemap">
+                <ul>
+                    <h4>Liên Kết Trang</h4>
+                    <li><a href="index.html">Trang Chủ</a></li>
+                    <li><a href="vanhoa.html">Văn Hóa</a></li>
+                    <li><a href="trainghiem.html">Trải Nghiệm</a></li>
+                    <li><a href="camnang.html">Cẩm Nang</a></li>
+                    <li><a href="#">Khách Sạn</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 contact">
+                <ul>
+                    <h4>Một Số Địa Điểm Nổi Bật Khác</h4>
+                    <li><i>Bãi Đá Ông Địa</i></li>
+                    <li><i>Hòn Rơm</i></li>
+                    <li><i>Hòn Ghềnh</i></li>
+                    <li><i>Bãi Rạng</i></li>
+                    <li><i>Lầu Ông Hoàng</i></li>
+                    <li><i>Dinh Vạn Thủy Tú</i></li>
+                </ul>
+            </div>
+        </div>
+
+    </div> <!-- end container-->
+
+
+    <script>
+        // Add active class to the current button (highlight it)        
+        document.querySelectorAll('.menu'). forEach (link => {
+            if(link.href === window.location.href) {
+                link.setAttribute('aria-current', 'page')
+            }
+        })
+        
+      
+        //Add button play/pause
+        var video = document.getElementById("index-video");
+
+        var btn = document.getElementById("btn-video");
+
+        function myFunction() {
+            if(video.paused) {
+                video.play();
+                btn.innerHTML  = "Pause";
+            }
+            else {
+                video.pause();
+                btn.innerHTML  = "Play";
+            }
+        }
+    </script>    
+
+    <!-- Latest compiled and minified Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
